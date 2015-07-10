@@ -1,6 +1,7 @@
 ---
 # install kubernetes on the nodes
 - hosts: groupb
+  gather_facts: false
   sudo: yes
   roles:
     - doit

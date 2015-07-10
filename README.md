@@ -1,6 +1,8 @@
 # anisble_ssh_user_bug
 
-Run ./broken.sh
-Run ./works.sh
+- USER=bob ./broken.sh
+- USER=bob ./works.sh
 
-You likely need to update the inventory file and the username in "broken and works"
+Make sure YOUR username will NOT work talking to the target machine, but the USER= name will work (or the opposite, in which case works and broken will switch I guess)
+
+You likely need to update the inventory file as well

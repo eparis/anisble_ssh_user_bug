@@ -3,6 +3,3 @@
     src: /etc/resolv.conf
   register: output
   delegate_to: "{{ groups['groupa'][0] }}"
-
-- name: Print it
-  debug: var=output
